@@ -9,6 +9,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           sparse-checkout: .
-          node_version: 1.0.0
+          node_version: '1.0.0'
       - run: npm install
       - run: npm run lint
